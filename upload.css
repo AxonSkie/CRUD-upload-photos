@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Advent Pro", sans-serif;
+
+}
+
+body{
+    background-color: rgb(10, 10, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container{
+    background-color: rgb(84, 163, 216);
+    width: 30%;
+    min-height: 5px;
+   
+    
+}
+
+.box{
+    margin-top: 100px;
+}
+
+.art{
+    width: 300px;
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0  ;
+    color: rgb(84, 163, 216);
+
+}
+
+
+body{
+    background-color: rgb(10, 10, 51);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container{
+    min-height: 500px;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    flex: 1;
+}
+
+.box1{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.img-1{
+    width: 350px;
+}
+
+h1{
+    color: rgb(84, 163, 216);
+    text-decoration: underline;
+    margin-left: 100px;
+    font-family: "Advent Pro", sans-serif;
+
+}
+
+.container1{
+    display: flex;
+    width: 100%;
+    min-height: 70px;
+    background-color: rgb(5, 5, 34);
+
+
+}
+
+.box2{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box3{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    
+}
+.art{
+    width: 70px;
+    margin-left: 10px;
+}
+
+.upload{
+    width: 100px;
+}
+
+.btn1{
+    background-color: rgb(6, 18, 27);
+    padding: 10px;
+}
+
+textarea{
+  width: 400px;
+  margin-left: 30px;
+  min-height: 60px;
+  color: black;
+  background-color: transparent;
+  color: white;
+  border-color: rgb(84, 163, 216);
+}
+
+h2{
+    font-family: "Advent Pro", sans-serif;
+
+}
+.btn2{
+    width: 100px;
+    margin-left: 30px;
+    background-color: transparent;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(84, 163, 216) ;
+    padding: 10px;
+    cursor: pointer;
+}
